@@ -1,6 +1,5 @@
 import Form from "@/components/Form";
 import Table from "@/components/Table";
-
 export default function Home() {
   return (
     <main className="w-screen h-screen bg-slate-900 flex justify-center items-center">
@@ -8,6 +7,7 @@ export default function Home() {
         <div className="flex flex-col">
           <Form />
           <Table />
+
         </div>
       </div>
     </main>
