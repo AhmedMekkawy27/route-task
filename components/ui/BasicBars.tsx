@@ -18,7 +18,7 @@ export default function BasicBars({ xAxis, yAxis }: BarChart) {
         "& .MuiChartsAxis-left .MuiChartsAxis-line": {
           stroke: "#fff",
         },
-        "& .MuiChartsAxis-tickLabel": {
+        "& .MuiChartsAxis-tickContainer .MuiChartsAxis-tickLabel": {
           fill: "#fff",
         },
         "& .MuiChartsAxis-tick": {
