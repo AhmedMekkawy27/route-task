@@ -11,7 +11,7 @@ const Table = () => {
     const [dates, setDates] = useState([] as string[])
     const [amount, setAmount] = useState([] as number[])
     useEffect(() => {
-        fetch('http://localhost:3000/api/customer-data').then(response => response.json()).then(data => {
+        fetch('https://route-task-gamma.vercel.app/api/customer-data').then(response => response.json()).then(data => {
             const customers = data.customers
             const transactions = data.transactions
             const newData = []
